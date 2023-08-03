@@ -10,8 +10,6 @@
   "keywords": ["package", "laravel", "payfast"],
   "license": "MIT",
   "require": {
-    "illuminate/support": "^5.4|^6.0|^7.0|^8.0",
-    "illuminate/http": "^5.4|^6.0|^7.0|^8.0",
     "billowapp/show-me-the-money": "^0.1.2|^0.2|^0.4"
   },
   "autoload": {
@@ -20,7 +18,8 @@
     }
   },
   "require-dev": {
-    "symfony/var-dumper": "^3.0"
+    "symfony/var-dumper": "^3.0",
+    "illuminate/http": "^1.1"
   },
   "extra": {
     "laravel": {
